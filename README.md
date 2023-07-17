@@ -7,4 +7,5 @@ Different sorting algorithms such as:
 5. Counting sort
 6. Random sort
 7. Quick sort
+
 are implemented using html, CSS and javascript.
