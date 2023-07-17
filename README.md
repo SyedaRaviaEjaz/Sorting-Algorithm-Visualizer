@@ -1,2 +1,2 @@
 # Sorting-Algorithms
-This is a web application of sorting algorithms.
+Different sorting algorithms such as bucket sort, insertion sort, radix sort, bubble sort, counting sort, random sort and quick sort are implemented.
