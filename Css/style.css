@@ -1,0 +1,186 @@
+.mySlides {
+  display: none;
+}
+  
+body {
+  background-color: rgb(164, 204, 91);
+  font-family: Verdana, sans-serif;
+}
+  
+.head {
+  margin-top: 20px;
+  margin-right: 20vw;
+  margin-left: 20vw;
+  text-align: center;
+  font-size: 30px;
+  background-color: #6f459e;
+  color: white;
+  border-radius:19px;
+  font-weight: bolder;
+}
+  
+.data-container {
+  width: 600px;
+  height: 364px;
+  position: relative;
+  margin: 0 auto;
+}
+  
+.bar {
+  width: 28px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 183, 255);
+  transition: 0.2s all ease;
+}
+  
+.bar__id {
+  position: absolute;
+  top: -24px;
+  width: 100%;
+  text-align: center;
+}
+.btn1
+{
+padding: 12px;
+font-weight: bolder; 
+background-color: #6f459e; 
+border-radius: 10px; 
+color: white; 
+font-size: 16px; 
+border: white; 
+margin-top: 1vw;
+margin-right: 1vw;
+}
+.btn2
+{
+padding: 12px; 
+font-weight: bolder; 
+background-color: #6f459e; 
+border-radius: 10px; 
+color: white; 
+font-size: 16px; 
+border: white
+}
+#ele{
+  text-align: center;
+  height: 35px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header {
+  font-size: 40px;
+  text-align: center;
+}
+#array {
+  background-color: rgb(218, 129, 129);
+  height: 265px;
+  width: 598px;
+  margin: auto;
+  position: relative;
+  margin-top: 64px;
+}
+.block {
+  width: 28px;
+  background-color: #6b5b95;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+.block_id {
+  position: absolute;
+  color: black;
+  margin-top: -20px;
+  width: 100%;
+  text-align: center;
+}
+.block_id2 {
+  position: absolute;
+  color: black;
+  margin-top: 22px;
+  width: 100%;
+  text-align: center;
+}
+.block_id3 {
+  position: absolute;
+  color: black;
+  margin-top: 1px;
+  width: 100%;
+  text-align: center;
+}
+.bucket {
+  width: 256px;
+  height: 260px;
+  position: relative;
+}
+.bucket2 {
+  margin: auto;
+  width: 148px;
+  height: 260px;
+}
+.firstbucket {
+  width: 28px;
+  background-color: #2c5e3b;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+.secondbucket {
+  width: 28px;
+  background-color: #2c6133;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+.thirdbucket {
+  width: 28px;
+  background-color: #386d50;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+.fourthbucket {
+  width: 28px;
+  background-color: #3ea34c;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.2s all ease;
+}
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+  background-color: #80db4b;
+  margin: auto;
+  padding: 20px;
+  font-size: larger;
+  border: 1px solid #888;
+  width: 70%;
+  text-align: center;
+}
+.close {
+  color: #000000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: rgb(250, 248, 248);
+  text-decoration: none;
+  cursor: pointer;
+}

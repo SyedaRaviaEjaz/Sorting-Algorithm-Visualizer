@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Css/style3.css" />
+    <title>Bubble Sort</title>    
+</head> 
+<body style="background-color:rgb(200, 238, 169)">
+    <br/>
+    <p class="header">Bubble Sort</p>
+    <button id="myBtn" style="font-size: larger; background-color:rgb(125, 84, 221);">Complexity</button>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Worst Case Time Complexity = O(N^2)</p>
+	<p>Average Case Time Complexity = O(N^2)</p>
+	<p>Best Case Time Complexity = O(N)</p>
+	<p>Space Complexity = O(1)</p>
+  </div>
+</div>
+<script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<div id="array"></div>
+    <script src="/Codes/bubble.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+.mySlides {
+  display: none;
+}
+
+body {
+  background-color: rgb(166, 167, 228);
+  font-family: Verdana, sans-serif;
+}
+
+.head {
+  margin-top: 20px;
+  margin-right: 20vw;
+  margin-left: 20vw;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(6, 35, 163);
+  color: white;
+  border-radius: 19px;
+  font-weight: bolder;
+}
+
+.data-container {
+  width: 1300px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.bar {
+  width: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(179, 93, 129);
+  transition: 0.2s all ease;
+}
+
+.bar__id {
+  position: absolute;
+  top: -24px;
+  width: 10%;
+  text-align: center;
+}
+.btn1 {
+  padding: 12px;
+  font-weight: bolder;
+  background-color: #9e4545;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  border: white;
+  margin-top: 1vw;
+  margin-right: 1vw;
+}
+.btn2 {
+  padding: 12px;
+  font-weight: bolder;
+  background-color: #01c459;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  border: white;
+}
+#ele {
+  text-align: center;
+  height: 15px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: #19d878;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  font-size: larger;
+  width: 80%;
+  text-align: center;
+}
+.close {
+  color: #000000;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: rgb(250, 248, 248);
+  text-decoration: none;
+  cursor: pointer;
+}
